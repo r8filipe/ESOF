@@ -10,29 +10,29 @@ function e($json)
 function setVeiculo()
 {
     $veiculo = new Veiculo();
-    $veiculo->setVeiculo(1, $_GET['capacidade'], $_GET['autonomia']);
-    return $veiculo;
+    $veiculo->setVeiculo(1, $_GET['capacidade'], $_GET['autonomia'], $_GET['matricula']);
+    return json_encode($veiculo);
 }
 
 function getVeiculoFree()
 {
     $veiculo = new Veiculo();
     $veiculo->getVeiculoFree();
-    return $veiculo;
+    return json_encode($veiculo);
 }
 
 function getAllVeiculo()
 {
     $veiculo = new Veiculo();
     $veiculo->getAllVeiculo();
-    return $veiculo;
+    return json_encode($veiculo);
 }
 
 function updateVeiculo()
 {
     $veiculo = new Veiculo();
-    $veiculo->updateVeiculo($_GET['id'], $_GET['estado'], $_GET['condutor']);
-    return $veiculo;
+    $veiculo->updateVeiculo($_GET['veiculo'], $_GET['estado'], $_GET['condutor']);
+    return json_encode($veiculo);
 }
 
 function setLocalizacao()
@@ -46,8 +46,8 @@ function setLocalizacao()
 function getLocalizacoes()
 {
     $localizacao = new Localizacao();
-    $localizacao->getLocalizacoes($_GET['oficina_id']);
-    return $localizacao;
+    $localizacao->getLocalizacoes($_GET['veiculo']);
+    return json_encode($localizacao);
 }
 
 function setCondutor()
@@ -61,7 +61,7 @@ function getAllDrivers()
 {
     $condutor = new Condutor();
     $condutor->getAllDrivers();
-    return $condutor;
+    return json_encode($condutor);
 }
 
 function setPercurso()
@@ -103,9 +103,6 @@ if (isset($_GET['method'])) {
             break;
     }
 
-    $_SESSION['response'] = $response->response;
-    echo "<script>
-             window.history.go(-1);
-     </script>";
+    echo $response;
 
 }

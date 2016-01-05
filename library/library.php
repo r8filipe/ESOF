@@ -21,11 +21,12 @@ class Veiculo
      * @param int $autonomia
      * @return string
      */
-    public function setVeiculo($estado = 1, $capacidade = 0, $autonomia = 0)
+    public function setVeiculo($estado = 1, $capacidade = 0, $autonomia = 0, $matricula)
     {
+
         $link = mysqli_connect("localhost", "root", "", "esof");
         mysqli_set_charset($link, "utf8");
-        $sql = "insert into veiculos(estado, capacidade, autonomia) values ($estado, $capacidade, $autonomia)";
+        $sql = "insert into veiculos(estado, capacidade, autonomia, matricula) values ($estado, $capacidade, $autonomia, '$matricula')";
         $this->response['result'] = mysqli_query($link, $sql);
         $this->response['action'] = 'new vehicle';
         mysqli_close($link);
@@ -68,7 +69,7 @@ class Veiculo
      * @param $estado
      * @param $condutor
      */
-    public function updateVeiculo($id, $estado, $condutor)
+    public function updateVeiculo($id, $estado = 1, $condutor)
     {
         $link = mysqli_connect("localhost", "root", "", "esof");
         mysqli_set_charset($link, "utf8");

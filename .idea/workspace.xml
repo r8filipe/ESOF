@@ -25,63 +25,104 @@
       <file leaf-file-name="library.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/library.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+            <state vertical-scroll-proportion="-7.9615383">
+              <caret line="126" column="20" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
               <folding>
                 <element signature="e#7#89#0#PHP" expanded="true" />
-                <marker date="1451783948332" expanded="true" signature="497:590" placeholder="insert into veiculos... " />
-                <marker date="1451783948332" expanded="true" signature="1023:1062" placeholder="select * fro... veiculos" />
-                <marker date="1451783948332" expanded="true" signature="1496:1518" placeholder="select * fro... veiculos" />
-                <marker date="1451783948332" expanded="true" signature="2105:2163" placeholder="update condu... " />
-                <marker date="1451783948332" expanded="true" signature="2222:2248" placeholder="update veicu... " />
-                <marker date="1451783948332" expanded="true" signature="2222:2251" placeholder="update veicu... " />
-                <marker date="1451783948332" expanded="true" signature="2222:2277" placeholder="update veicu... " />
-                <marker date="1451783948332" expanded="true" signature="2222:2278" placeholder="update veicu... " />
-                <marker date="1451783948332" expanded="true" signature="2222:2279" placeholder="update veicu... " />
-                <marker date="1451783948332" expanded="true" signature="2337:2415" placeholder="insert into condutor_veiculo... " />
-                <marker date="1451783948332" expanded="true" signature="2479:2547" placeholder="select * fro... veiculos" />
-                <marker date="1451783948332" expanded="true" signature="2479:2759" placeholder="select v.cap... veiculos" />
-                <marker date="1451783948332" expanded="true" signature="2479:2784" placeholder="select v.cap... veiculos" />
-                <marker date="1451783948332" expanded="true" signature="2479:2792" placeholder="select v.cap... veiculos" />
-                <marker date="1451783948332" expanded="true" signature="2479:2806" placeholder="select v.cap... veiculos" />
-                <marker date="1451783948332" expanded="true" signature="3430:3507" placeholder="insert into localizacoes... " />
-                <marker date="1451783948332" expanded="true" signature="3981:4037" placeholder="select coord... localizacoes" />
-                <marker date="1451783948332" expanded="true" signature="3981:4038" placeholder="select * fro... localizacoes" />
-                <marker date="1451783948332" expanded="true" signature="4666:4732" placeholder="insert into condutores... " />
-                <marker date="1451783948332" expanded="true" signature="5066:5079" placeholder="select * fro... localizacoes" />
-                <marker date="1451783948332" expanded="true" signature="5066:5090" placeholder="select * fro... condutores" />
-                <marker date="1451783948332" expanded="true" signature="5615:5692" placeholder="insert into condutores... " />
+                <marker date="1452005797762" expanded="true" signature="510:628" placeholder="insert into veiculos... " />
+                <marker date="1452005797762" expanded="true" signature="1061:1100" placeholder="select * fro... veiculos" />
+                <marker date="1452005797762" expanded="true" signature="1534:1556" placeholder="select * fro... veiculos" />
+                <marker date="1452005797762" expanded="true" signature="2147:2205" placeholder="update condu... " />
+                <marker date="1452005797762" expanded="true" signature="2264:2290" placeholder="update veicu... " />
+                <marker date="1452005797762" expanded="true" signature="2264:2293" placeholder="update veicu... " />
+                <marker date="1452005797762" expanded="true" signature="2264:2319" placeholder="update veicu... " />
+                <marker date="1452005797762" expanded="true" signature="2264:2320" placeholder="update veicu... " />
+                <marker date="1452005797762" expanded="true" signature="2264:2321" placeholder="update veicu... " />
+                <marker date="1452005797762" expanded="true" signature="2379:2457" placeholder="insert into condutor_veiculo... " />
+                <marker date="1452005797762" expanded="true" signature="2521:2589" placeholder="select * fro... veiculos" />
+                <marker date="1452005797762" expanded="true" signature="2521:2801" placeholder="select v.cap... veiculos" />
+                <marker date="1452005797762" expanded="true" signature="2521:2826" placeholder="select v.cap... veiculos" />
+                <marker date="1452005797762" expanded="true" signature="2521:2834" placeholder="select v.cap... veiculos" />
+                <marker date="1452005797762" expanded="true" signature="2521:2848" placeholder="select v.cap... veiculos" />
+                <marker date="1452005797762" expanded="true" signature="3472:3549" placeholder="insert into localizacoes... " />
+                <marker date="1452005797762" expanded="true" signature="4023:4079" placeholder="select coord... localizacoes" />
+                <marker date="1452005797762" expanded="true" signature="4023:4080" placeholder="select * fro... localizacoes" />
+                <marker date="1452005797762" expanded="true" signature="4708:4774" placeholder="insert into condutores... " />
+                <marker date="1452005797762" expanded="true" signature="5108:5121" placeholder="select * fro... localizacoes" />
+                <marker date="1452005797762" expanded="true" signature="5108:5132" placeholder="select * fro... condutores" />
+                <marker date="1452005797762" expanded="true" signature="5657:5734" placeholder="insert into condutores... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7749196">
-              <caret line="158" column="38" selection-start-line="158" selection-start-column="38" selection-end-line="158" selection-end-column="38" />
+            <state vertical-scroll-proportion="-2.3818183">
+              <caret line="274" column="50" selection-start-line="274" selection-start-column="50" selection-end-line="274" selection-end-column="50" />
               <folding>
-                <marker date="1451784068112" expanded="true" signature="5362:7927" placeholder="..." />
-                <marker date="1451784068112" expanded="true" signature="6304:6305" placeholder="..." />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1452010940047" expanded="true" signature="949:1798" placeholder="..." />
+                <marker date="1452010940047" expanded="true" signature="957:1798" placeholder="..." />
+                <marker date="1452010940047" expanded="true" signature="8265:8605" placeholder="..." />
+                <marker date="1452010940047" expanded="true" signature="10261:10601" placeholder="..." />
+                <marker date="1452010940047" expanded="true" signature="16372:16984" placeholder="..." />
+                <marker date="1452010940047" expanded="true" signature="16421:16436" placeholder="..." />
+                <marker date="1452010940047" expanded="true" signature="16437:16548" placeholder="..." />
+                <marker date="1452010940047" expanded="true" signature="16610:16954" placeholder="..." />
+                <marker date="1452010940047" expanded="true" signature="16647:16920" placeholder="..." />
+                <marker date="1452010940047" expanded="true" signature="17123:17291" placeholder="..." />
+                <marker date="1452010940047" expanded="true" signature="17149:17277" placeholder="..." />
+                <marker date="1452010940047" expanded="true" signature="17185:17262" placeholder="..." />
+                <marker date="1452010940047" expanded="true" signature="17637:17761" placeholder="..." />
+                <marker date="1452010940047" expanded="true" signature="17673:17750" placeholder="{...}" />
+                <marker date="1452010940047" expanded="true" signature="17704:17741" placeholder="{&quot;toggle&quot;: false...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ws1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ws1.php">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.423077">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="29112015.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/29112015.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="108" selection-end-column="16" />
-              <folding>
-                <marker date="1451784059465" expanded="true" signature="2392:2443" placeholder="..." />
-              </folding>
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ws1.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ws1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.12566371">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="57" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -91,6 +132,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/library/library.php" />
         <option value="$PROJECT_DIR$/ws1.php" />
+        <option value="$PROJECT_DIR$/29112015.txt" />
+        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
@@ -158,11 +201,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Dropbox/Licenciatura 3ano/LAPR/XBOOK" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ESOF" />
+      <recent name="C:\xampp\htdocs\ESOF\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\ESOF" />
+      <recent name="C:\xampp\htdocs\ESOF\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -207,15 +256,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13646056" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26760563" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -243,28 +292,28 @@
           <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
           <folding>
             <element signature="e#7#89#0#PHP" expanded="true" />
-            <marker date="1451783948332" expanded="true" signature="497:590" placeholder="insert into veiculos... " />
-            <marker date="1451783948332" expanded="true" signature="1023:1062" placeholder="select * fro... veiculos" />
-            <marker date="1451783948332" expanded="true" signature="1496:1518" placeholder="select * fro... veiculos" />
-            <marker date="1451783948332" expanded="true" signature="2105:2163" placeholder="update condu... " />
-            <marker date="1451783948332" expanded="true" signature="2222:2248" placeholder="update veicu... " />
-            <marker date="1451783948332" expanded="true" signature="2222:2251" placeholder="update veicu... " />
-            <marker date="1451783948332" expanded="true" signature="2222:2277" placeholder="update veicu... " />
-            <marker date="1451783948332" expanded="true" signature="2222:2278" placeholder="update veicu... " />
-            <marker date="1451783948332" expanded="true" signature="2222:2279" placeholder="update veicu... " />
-            <marker date="1451783948332" expanded="true" signature="2337:2415" placeholder="insert into condutor_veiculo... " />
-            <marker date="1451783948332" expanded="true" signature="2479:2547" placeholder="select * fro... veiculos" />
-            <marker date="1451783948332" expanded="true" signature="2479:2759" placeholder="select v.cap... veiculos" />
-            <marker date="1451783948332" expanded="true" signature="2479:2784" placeholder="select v.cap... veiculos" />
-            <marker date="1451783948332" expanded="true" signature="2479:2792" placeholder="select v.cap... veiculos" />
-            <marker date="1451783948332" expanded="true" signature="2479:2806" placeholder="select v.cap... veiculos" />
-            <marker date="1451783948332" expanded="true" signature="3430:3507" placeholder="insert into localizacoes... " />
-            <marker date="1451783948332" expanded="true" signature="3981:4037" placeholder="select coord... localizacoes" />
-            <marker date="1451783948332" expanded="true" signature="3981:4038" placeholder="select * fro... localizacoes" />
-            <marker date="1451783948332" expanded="true" signature="4666:4732" placeholder="insert into condutores... " />
-            <marker date="1451783948332" expanded="true" signature="5066:5079" placeholder="select * fro... localizacoes" />
-            <marker date="1451783948332" expanded="true" signature="5066:5090" placeholder="select * fro... condutores" />
-            <marker date="1451783948332" expanded="true" signature="5615:5692" placeholder="insert into condutores... " />
+            <marker date="1452005797762" expanded="true" signature="510:628" placeholder="insert into veiculos... " />
+            <marker date="1452005797762" expanded="true" signature="1061:1100" placeholder="select * fro... veiculos" />
+            <marker date="1452005797762" expanded="true" signature="1534:1556" placeholder="select * fro... veiculos" />
+            <marker date="1452005797762" expanded="true" signature="2147:2205" placeholder="update condu... " />
+            <marker date="1452005797762" expanded="true" signature="2264:2290" placeholder="update veicu... " />
+            <marker date="1452005797762" expanded="true" signature="2264:2293" placeholder="update veicu... " />
+            <marker date="1452005797762" expanded="true" signature="2264:2319" placeholder="update veicu... " />
+            <marker date="1452005797762" expanded="true" signature="2264:2320" placeholder="update veicu... " />
+            <marker date="1452005797762" expanded="true" signature="2264:2321" placeholder="update veicu... " />
+            <marker date="1452005797762" expanded="true" signature="2379:2457" placeholder="insert into condutor_veiculo... " />
+            <marker date="1452005797762" expanded="true" signature="2521:2589" placeholder="select * fro... veiculos" />
+            <marker date="1452005797762" expanded="true" signature="2521:2801" placeholder="select v.cap... veiculos" />
+            <marker date="1452005797762" expanded="true" signature="2521:2826" placeholder="select v.cap... veiculos" />
+            <marker date="1452005797762" expanded="true" signature="2521:2834" placeholder="select v.cap... veiculos" />
+            <marker date="1452005797762" expanded="true" signature="2521:2848" placeholder="select v.cap... veiculos" />
+            <marker date="1452005797762" expanded="true" signature="3472:3549" placeholder="insert into localizacoes... " />
+            <marker date="1452005797762" expanded="true" signature="4023:4079" placeholder="select coord... localizacoes" />
+            <marker date="1452005797762" expanded="true" signature="4023:4080" placeholder="select * fro... localizacoes" />
+            <marker date="1452005797762" expanded="true" signature="4708:4774" placeholder="insert into condutores... " />
+            <marker date="1452005797762" expanded="true" signature="5108:5121" placeholder="select * fro... localizacoes" />
+            <marker date="1452005797762" expanded="true" signature="5108:5132" placeholder="select * fro... condutores" />
+            <marker date="1452005797762" expanded="true" signature="5657:5734" placeholder="insert into condutores... " />
           </folding>
         </state>
       </provider>
@@ -274,8 +323,24 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1451784068112" expanded="true" signature="5362:7927" placeholder="..." />
-            <marker date="1451784068112" expanded="true" signature="6304:6305" placeholder="..." />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1452010940047" expanded="true" signature="949:1798" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="957:1798" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="8265:8605" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="10261:10601" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="16372:16984" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="16421:16436" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="16437:16548" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="16610:16954" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="16647:16920" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="17123:17291" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="17149:17277" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="17185:17262" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="17637:17761" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="17673:17750" placeholder="{...}" />
+            <marker date="1452010940047" expanded="true" signature="17704:17741" placeholder="{&quot;toggle&quot;: false...}" />
           </folding>
         </state>
       </provider>
@@ -284,9 +349,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="108" selection-end-column="16" />
-          <folding>
-            <marker date="1451784059465" expanded="true" signature="2392:2443" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -294,6 +357,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -301,59 +365,122 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34726688">
           <caret line="1092" column="9" selection-start-line="1092" selection-start-column="9" selection-end-line="1092" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ws1.php">
+    <entry file="file://$PROJECT_DIR$/js/metisMenu.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="108" selection-end-column="16" />
-          <folding>
-            <marker date="1451784059465" expanded="true" signature="2392:2443" placeholder="..." />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/metisMenu.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gpsTest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8101852">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="1189" column="0" selection-start-line="1189" selection-start-column="0" selection-end-line="1189" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29112015.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/library.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+        <state vertical-scroll-proportion="-7.9615383">
+          <caret line="126" column="20" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
           <folding>
             <element signature="e#7#89#0#PHP" expanded="true" />
-            <marker date="1451783948332" expanded="true" signature="497:590" placeholder="insert into veiculos... " />
-            <marker date="1451783948332" expanded="true" signature="1023:1062" placeholder="select * fro... veiculos" />
-            <marker date="1451783948332" expanded="true" signature="1496:1518" placeholder="select * fro... veiculos" />
-            <marker date="1451783948332" expanded="true" signature="2105:2163" placeholder="update condu... " />
-            <marker date="1451783948332" expanded="true" signature="2222:2248" placeholder="update veicu... " />
-            <marker date="1451783948332" expanded="true" signature="2222:2251" placeholder="update veicu... " />
-            <marker date="1451783948332" expanded="true" signature="2222:2277" placeholder="update veicu... " />
-            <marker date="1451783948332" expanded="true" signature="2222:2278" placeholder="update veicu... " />
-            <marker date="1451783948332" expanded="true" signature="2222:2279" placeholder="update veicu... " />
-            <marker date="1451783948332" expanded="true" signature="2337:2415" placeholder="insert into condutor_veiculo... " />
-            <marker date="1451783948332" expanded="true" signature="2479:2547" placeholder="select * fro... veiculos" />
-            <marker date="1451783948332" expanded="true" signature="2479:2759" placeholder="select v.cap... veiculos" />
-            <marker date="1451783948332" expanded="true" signature="2479:2784" placeholder="select v.cap... veiculos" />
-            <marker date="1451783948332" expanded="true" signature="2479:2792" placeholder="select v.cap... veiculos" />
-            <marker date="1451783948332" expanded="true" signature="2479:2806" placeholder="select v.cap... veiculos" />
-            <marker date="1451783948332" expanded="true" signature="3430:3507" placeholder="insert into localizacoes... " />
-            <marker date="1451783948332" expanded="true" signature="3981:4037" placeholder="select coord... localizacoes" />
-            <marker date="1451783948332" expanded="true" signature="3981:4038" placeholder="select * fro... localizacoes" />
-            <marker date="1451783948332" expanded="true" signature="4666:4732" placeholder="insert into condutores... " />
-            <marker date="1451783948332" expanded="true" signature="5066:5079" placeholder="select * fro... localizacoes" />
-            <marker date="1451783948332" expanded="true" signature="5066:5090" placeholder="select * fro... condutores" />
-            <marker date="1451783948332" expanded="true" signature="5615:5692" placeholder="insert into condutores... " />
+            <marker date="1452005797762" expanded="true" signature="510:628" placeholder="insert into veiculos... " />
+            <marker date="1452005797762" expanded="true" signature="1061:1100" placeholder="select * fro... veiculos" />
+            <marker date="1452005797762" expanded="true" signature="1534:1556" placeholder="select * fro... veiculos" />
+            <marker date="1452005797762" expanded="true" signature="2147:2205" placeholder="update condu... " />
+            <marker date="1452005797762" expanded="true" signature="2264:2290" placeholder="update veicu... " />
+            <marker date="1452005797762" expanded="true" signature="2264:2293" placeholder="update veicu... " />
+            <marker date="1452005797762" expanded="true" signature="2264:2319" placeholder="update veicu... " />
+            <marker date="1452005797762" expanded="true" signature="2264:2320" placeholder="update veicu... " />
+            <marker date="1452005797762" expanded="true" signature="2264:2321" placeholder="update veicu... " />
+            <marker date="1452005797762" expanded="true" signature="2379:2457" placeholder="insert into condutor_veiculo... " />
+            <marker date="1452005797762" expanded="true" signature="2521:2589" placeholder="select * fro... veiculos" />
+            <marker date="1452005797762" expanded="true" signature="2521:2801" placeholder="select v.cap... veiculos" />
+            <marker date="1452005797762" expanded="true" signature="2521:2826" placeholder="select v.cap... veiculos" />
+            <marker date="1452005797762" expanded="true" signature="2521:2834" placeholder="select v.cap... veiculos" />
+            <marker date="1452005797762" expanded="true" signature="2521:2848" placeholder="select v.cap... veiculos" />
+            <marker date="1452005797762" expanded="true" signature="3472:3549" placeholder="insert into localizacoes... " />
+            <marker date="1452005797762" expanded="true" signature="4023:4079" placeholder="select coord... localizacoes" />
+            <marker date="1452005797762" expanded="true" signature="4023:4080" placeholder="select * fro... localizacoes" />
+            <marker date="1452005797762" expanded="true" signature="4708:4774" placeholder="insert into condutores... " />
+            <marker date="1452005797762" expanded="true" signature="5108:5121" placeholder="select * fro... localizacoes" />
+            <marker date="1452005797762" expanded="true" signature="5108:5132" placeholder="select * fro... condutores" />
+            <marker date="1452005797762" expanded="true" signature="5657:5734" placeholder="insert into condutores... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7749196">
-          <caret line="158" column="38" selection-start-line="158" selection-start-column="38" selection-end-line="158" selection-end-column="38" />
+        <state vertical-scroll-proportion="-2.3818183">
+          <caret line="274" column="50" selection-start-line="274" selection-start-column="50" selection-end-line="274" selection-end-column="50" />
           <folding>
-            <marker date="1451784068112" expanded="true" signature="5362:7927" placeholder="..." />
-            <marker date="1451784068112" expanded="true" signature="6304:6305" placeholder="..." />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1452010940047" expanded="true" signature="949:1798" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="957:1798" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="8265:8605" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="10261:10601" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="16372:16984" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="16421:16436" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="16437:16548" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="16610:16954" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="16647:16920" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="17123:17291" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="17149:17277" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="17185:17262" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="17637:17761" placeholder="..." />
+            <marker date="1452010940047" expanded="true" signature="17673:17750" placeholder="{...}" />
+            <marker date="1452010940047" expanded="true" signature="17704:17741" placeholder="{&quot;toggle&quot;: false...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12566371">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="57" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
