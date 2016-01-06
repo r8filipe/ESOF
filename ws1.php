@@ -2,11 +2,17 @@
 session_start();
 include('library/library.php');
 
+/**
+ * @param $json
+ */
 function e($json)
 {
     echo json_encode($json);
 }
 
+/**
+ * @return Veiculo
+ */
 function setVeiculo()
 {
     $veiculo = new Veiculo();
@@ -14,6 +20,9 @@ function setVeiculo()
     return $veiculo;
 }
 
+/**
+ * @return Veiculo
+ */
 function getVeiculoFree()
 {
     $veiculo = new Veiculo();
@@ -21,6 +30,9 @@ function getVeiculoFree()
     return $veiculo;
 }
 
+/**
+ * @return Veiculo
+ */
 function getAllVeiculo()
 {
     $veiculo = new Veiculo();
@@ -28,6 +40,9 @@ function getAllVeiculo()
     return $veiculo;
 }
 
+/**
+ * @return Veiculo
+ */
 function updateVeiculo()
 {
     $veiculo = new Veiculo();
@@ -35,6 +50,9 @@ function updateVeiculo()
     return $veiculo;
 }
 
+/**
+ * @return Localizacao
+ */
 function setLocalizacao()
 {
     $coordenadas = $_GET['lat'] . ',' . $_GET['lng'];
@@ -43,6 +61,9 @@ function setLocalizacao()
     return $localizacao;
 }
 
+/**
+ * @return Localizacao
+ */
 function getLocalizacoes()
 {
     $localizacao = new Localizacao();
@@ -50,6 +71,9 @@ function getLocalizacoes()
     return $localizacao;
 }
 
+/**
+ * @return Condutor
+ */
 function setCondutor()
 {
     $condutor = new Condutor();
@@ -57,6 +81,9 @@ function setCondutor()
     return $condutor;
 }
 
+/**
+ * @return Condutor
+ */
 function getAllDrivers()
 {
     $condutor = new Condutor();
@@ -64,6 +91,9 @@ function getAllDrivers()
     return $condutor;
 }
 
+/**
+ * @return Percurso
+ */
 function setPercurso()
 {
     $percurso = new Percurso();

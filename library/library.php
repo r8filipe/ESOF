@@ -12,6 +12,9 @@
  */
 class Veiculo
 {
+    /**
+     * @var array
+     */
     public $response = array();
 
 
@@ -49,6 +52,9 @@ class Veiculo
         return json_encode($this->response);
     }
 
+    /**
+     * @return string
+     */
     public function getAllVeiculo()
     {
         $link = mysqli_connect("localhost", "root", "", "esof");
@@ -102,6 +108,9 @@ class Veiculo
  */
 class Localizacao
 {
+    /**
+     * @var array
+     */
     public $response = array();
 
     /**
@@ -143,6 +152,9 @@ class Localizacao
  */
 class Condutor
 {
+    /**
+     * @var array
+     */
     public $response = array();
 
     /**
@@ -161,6 +173,9 @@ class Condutor
         return json_encode($this->response);
     }
 
+    /**
+     * @return string
+     */
     public function getAllDrivers()
     {
         $link = mysqli_connect("localhost", "root", "", "esof");
@@ -181,8 +196,17 @@ class Condutor
  */
 class Percurso
 {
+    /**
+     * @var array
+     */
     public $response = array();
 
+    /**
+     * @param $id
+     * @param $inicio
+     * @param $fim
+     * @return string
+     */
     public function setPercurso($id, $inicio, $fim)
     {
         $link = mysqli_connect("localhost", "root", "", "esof");
