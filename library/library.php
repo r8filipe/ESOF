@@ -1,13 +1,6 @@
 <?php
 
 /**
- * Created by PhpStorm.
- * User: Filipe
- * Date: 02-01-2016
- * Time: 18:26
- */
-
-/**
  * Class veiculos
  */
 class Veiculo
