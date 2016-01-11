@@ -71,6 +71,14 @@ function setPercurso()
     return $percurso;
 }
 
+function searchTo()
+{
+    $coordenates = $_GET['lat'] . ',' . $_GET['lng'];
+    $distancia = $_GET['distancia'];
+
+
+}
+
 if (isset($_GET['method'])) {
     $method = $_GET['method'];
     switch ($method) {
@@ -100,6 +108,9 @@ if (isset($_GET['method'])) {
             break;
         case 'setPercurso';
             $response = setPercurso();
+            break;
+        case 'searchTo';
+            $response = searchTo();
             break;
     }
 
