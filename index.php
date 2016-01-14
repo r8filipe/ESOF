@@ -1,23 +1,17 @@
 <?php
 session_start();
-
+/**
+ * @file   index.php
+ * @brief  Doxygen documentation example for files.
+ * @date   janeiro, 2016
+ * @author Filipe Vinha e Jorge Rocha
+ */
 if (isset($_POST['method'])) {
-    if ($_POST['method'] == 'setVeiculo') {
-        $capacidade = $_POST['capacidade'];
-        $autonomia = $_POST['autonomia'];
-        $matricula = $_POST['matricula'];
-        $response = file_get_contents('http://localhost:8080/esof/ws1.php?method=setVeiculo&capacidade=' . $capacidade . '&matricula=' . $matricula . '&autonomia=' . $autonomia);
+    $url = 'http://localhost:8080/esof/ws1.php?token=trabalhoEsof2016&';
+    foreach ($_POST as $key => $value) {
+        $url .= $key . '=' . urlencode($value) . '&';
     }
-    if ($_POST['method'] == 'updateVeiculo') {
-        $veiculo = $_POST['veiculo'];
-        $condutor = $_POST['condutor'];
-        $response = file_get_contents('http://localhost:8080/esof/ws1.php?method=updateVeiculo&estado=1&veiculo=' . $veiculo . '&condutor=' . $condutor);
-    }
-    if ($_POST['method'] == 'getLocalizacoes') {
-        $veiculo = $_POST['veiculo'];
-        $response = file_get_contents('http://localhost:8080/esof/ws1.php?method=getLocalizacoes&&veiculo=' . $veiculo);
-    }
-
+    $response = file_get_contents($url);
 }
 ?>
 
@@ -32,7 +26,7 @@ if (isset($_POST['method'])) {
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>ESOF</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -68,7 +62,7 @@ if (isset($_POST['method'])) {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php">Start Bootstrap</a>
+            <a class="navbar-brand" href="index.php">ESOF</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -86,7 +80,7 @@ if (isset($_POST['method'])) {
     <!-- Service Tabs -->
     <div class="row">
         <div class="col-lg-12">
-            <h2 class="page-header">BACKEND</h2>
+            <h2 class="page-header">DIRECT</h2>
         </div>
         <div class="col-lg-12">
 
@@ -144,6 +138,43 @@ if (isset($_POST['method'])) {
                         </li>
                         <li class="sidebar-search ">
                             <a href="#" style="font-size:1.2em"><i class="fa fa-money"></i></i>
+                                Inserir Condutor<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <div class="panel-body">
+                                        <form action="" role="form" id="myform" method="post">
+                                            <div class="control-group form-group">
+                                                <div class="controls">
+                                                    <label>Nome</label>
+                                                    <input type="text" class="form-control" name="nome"
+                                                           id="nome"
+                                                           required=""
+                                                           data-validation-required-message="nome."
+                                                           aria-invalid="false">
+                                                    <p class="help-block"></p>
+                                                </div>
+                                            </div>
+                                            <div class="control-group form-group">
+                                                <div class="controls">
+                                                    <label>Contato</label>
+                                                    <input type="number" class="form-control" name="contato"
+                                                           id="contato"
+                                                           required=""
+                                                           data-validation-required-message="contato."
+                                                           aria-invalid="false">
+                                                    <p class="help-block"></p>
+                                                </div>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary" id="btnadd"
+                                                    name="method" value="setDriver">Criar Condutor
+                                            </button>
+                                        </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-search ">
+                            <a href="#" style="font-size:1.2em"><i class="fa fa-money"></i></i>
                                 Veiculos Livres<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
@@ -158,15 +189,17 @@ if (isset($_POST['method'])) {
                                             </thead>
                                             <tbody>
                                             <?php
-                                            $free = json_decode(file_get_contents('http://localhost:8080/esof/ws1.php?method=getVeiculoFree'));
-                                            foreach ($free->response->items as $vechile)
-                                                echo '
+                                            $free = json_decode(file_get_contents('http://localhost:8080/esof/ws1.php?token=trabalhoEsof2016&method=getVeiculoFree'));
+                                            if (isset($free->response->items)) {
+                                                foreach ($free->response->items as $vechile)
+                                                    echo '
                                                       <tr>
                                                         <td>' . $vechile->matricula . '</td>
                                                         <td>' . $vechile->capacidade . '</td>
                                                         <td>' . $vechile->autonomia . '</td>
                                                       </tr>
                                                 ';
+                                            }
                                             ?>
                                             </tbody>
                                         </table>
@@ -190,15 +223,89 @@ if (isset($_POST['method'])) {
                                             </thead>
                                             <tbody>
                                             <?php
-                                            $free = json_decode(file_get_contents('http://localhost:8080/esof/ws1.php?method=getAllVeiculo'));
-                                            foreach ($free->response->items as $vechile)
-                                                echo '
+                                            $free = json_decode(file_get_contents('http://localhost:8080/esof/ws1.php?token=trabalhoEsof2016&method=getAllVeiculo'));
+                                            if (isset($free->response->items)) {
+                                                foreach ($free->response->items as $vechile)
+                                                    echo '
                                                       <tr>
                                                         <td>' . $vechile->matricula . '</td>
                                                         <td>' . $vechile->capacidade . '</td>
                                                         <td>' . $vechile->autonomia . '</td>
                                                       </tr>
                                                 ';
+                                            }
+                                            ?>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-search ">
+                            <a href="#" style="font-size:1.2em"><i class="fa fa-money"></i></i>
+                                Todos Condutores<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <div class="panel-body">
+                                        <table class="table table-hover">
+                                            <thead>
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Nome</th>
+                                                <th>Contacto</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <?php
+                                            $drivers = json_decode(file_get_contents('http://localhost:8080/esof/ws1.php?token=trabalhoEsof2016&method=getAllDrivers'));
+                                            if (isset($drivers->response->drivers)) {
+                                                foreach ($drivers->response->drivers as $driver)
+                                                    echo '
+                                                      <tr>
+                                                        <td>' . $driver->id_condutor . '</td>
+                                                        <td>' . $driver->nome . '</td>
+                                                        <td>' . $driver->contacto . '</td>
+                                                      </tr>
+                                                ';
+                                            }
+                                            ?>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-search ">
+                            <a href="#" style="font-size:1.2em"><i class="fa fa-money"></i></i>
+                                Todos Percursos<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <div class="panel-body">
+                                        <table class="table table-hover">
+                                            <thead>
+                                            <tr>
+                                                <th>Veiculo</th>
+                                                <th>Condutor</th>
+                                                <th>Origem</th>
+                                                <th>Destino</th>
+                                                <th>Data</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <?php
+                                            $routes = json_decode(file_get_contents('http://localhost:8080/esof/ws1.php?token=trabalhoEsof2016&method=getActiveRoutes'));
+                                            if (isset($routes->response->routes)) {
+                                                foreach ($routes->response->routes as $route)
+                                                    echo '
+                                                      <tr>
+                                                        <td>' . $route->nome . '</td>
+                                                        <td>' . $route->matricula . '</td>
+                                                        <td>' . $route->inicio . '</td>
+                                                        <td>' . $route->fim . '</td>
+                                                        <td>' . substr($route->data, 0, 10) . '</td>
+                                                      </tr>
+                                                ';
+                                            }
                                             ?>
                                             </tbody>
                                         </table>
@@ -216,11 +323,13 @@ if (isset($_POST['method'])) {
                                             <label>Veiculo</label>
                                             <select name="veiculo">
                                                 <?php
-                                                $free = json_decode(file_get_contents('http://localhost:8080/esof/ws1.php?method=getAllVeiculo'));
-                                                foreach ($free->response->items as $vechile)
-                                                    echo '
+                                                $free = json_decode(file_get_contents('http://localhost:8080/esof/ws1.php?token=trabalhoEsof2016&method=getAllVeiculo'));
+                                                if (isset($free->response->items)) {
+                                                    foreach ($free->response->items as $vechile)
+                                                        echo '
                                                             <option value="' . $vechile->id_veiculo . '">' . $vechile->matricula . '</option>
                                                         ';
+                                                }
                                                 ?>
                                             </select>
                                             <p class="help-block"></p>
@@ -231,11 +340,13 @@ if (isset($_POST['method'])) {
                                             <label>Condutor</label>
                                             <select name="condutor">
                                                 <?php
-                                                $drivers = json_decode(file_get_contents('http://localhost:8080/esof/ws1.php?method=getAllDrivers'));
-                                                foreach ($drivers->response->drivers as $driver)
-                                                    echo '
+                                                $drivers = json_decode(file_get_contents('http://localhost:8080/esof/ws1.php?token=trabalhoEsof2016&method=getAllDrivers'));
+                                                if (isset($drivers->response->drivers)) {
+                                                    foreach ($drivers->response->drivers as $driver)
+                                                        echo '
                                                             <option value="' . $driver->id_condutor . '">' . $driver->nome . '</option>
                                                         ';
+                                                }
                                                 ?>
                                             </select>
                                             <p class="help-block"></p>
@@ -250,7 +361,39 @@ if (isset($_POST['method'])) {
                         </li>
                         <li class="sidebar-search ">
                             <a href="#" style="font-size:1.2em"><i class="fa fa-money"></i></i>
-                                Obter Localizações<span class="fa arrow"></span></a>
+                                Veiculos Com Condutor<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <div class="panel-body">
+                                        <table class="table table-hover">
+                                            <thead>
+                                            <tr>
+                                                <th>Condutor</th>
+                                                <th>Veiculo</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <?php
+                                            $driverVehicles = json_decode(file_get_contents('http://localhost:8080/esof/ws1.php?token=trabalhoEsof2016&method=getDriverVehicle'));
+                                            if (isset($driverVehicles->response->items)) {
+                                                foreach ($driverVehicles->response->items as $driverVehicle)
+                                                    echo '
+                                                      <tr>
+                                                        <td>' . $driverVehicle->nome . '</td>
+                                                        <td>' . $driverVehicle->matricula . '</td>
+                                                      </tr>
+                                                ';
+                                            }
+                                            ?>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-search ">
+                            <a href="#" style="font-size:1.2em"><i class="fa fa-money"></i></i>
+                                Atribuir Percurso<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <form action="" role="form" id="myform" method="post">
                                     <div class="control-group form-group">
@@ -258,36 +401,64 @@ if (isset($_POST['method'])) {
                                             <label>Veiculo</label>
                                             <select name="veiculo">
                                                 <?php
-                                                $free = json_decode(file_get_contents('http://localhost:8080/esof/ws1.php?method=getAllVeiculo'));
-                                                foreach ($free->response->items as $vechile)
-                                                    echo '
-                                                            <option value="' . $vechile->id_veiculo . '">' . $vechile->matricula . '</option>
+                                                $driverVehicles = json_decode(file_get_contents('http://localhost:8080/esof/ws1.php?token=trabalhoEsof2016&method=getDriverVehicle'));
+                                                if (isset($driverVehicles->response->items)) {
+                                                    foreach ($driverVehicles->response->items as $driverVehicle)
+                                                        echo '
+                                                            <option value="' . $driverVehicle->id_veiculo . '">' . $driverVehicle->matricula . '</option>
                                                         ';
+                                                }
                                                 ?>
                                             </select>
                                             <p class="help-block"></p>
                                         </div>
                                     </div>
+                                    <div class="control-group form-group">
+                                        <div class="controls">
+                                            <label>Origem (Morada, localidade ou codigo/postal)</label>
+                                            <input type="text" class="form-control" name="origem"
+                                                   id="text"
+                                                   required=""
+                                                   data-validation-required-message="origem."
+                                                   aria-invalid="false">
+                                            <p class="help-block"></p>
+                                        </div>
+                                    </div>
+                                    <div class="control-group form-group">
+                                        <div class="controls">
+                                            <label>Destino (Morada, localidade ou codigo/postal)</label>
+                                            <input type="text" class="form-control" name="destino"
+                                                   id="destino"
+                                                   required=""
+                                                   data-validation-required-message="destino."
+                                                   aria-invalid="false">
+                                            <p class="help-block"></p>
+                                        </div>
+                                    </div>
+                                    <div class="control-group form-group">
+                                        <div class="controls">
+                                            <label>Carga</label>
+                                            <input type="number" class="form-control" name="carga"
+                                                   id="carga"
+                                                   required=""
+                                                   data-validation-required-message="carga."
+                                                   aria-invalid="false">
+                                            <p class="help-block"></p>
+                                        </div>
+                                    </div>
+                                    <div class="control-group form-group">
+                                        <div class="controls">
+                                            <label>Data</label>
+                                            <input type="date" name="data" max="2016-12-31"
+                                                   min="<?php echo date('Y-m-d'); ?>"
+                                                   class="form-control"><br><br>
+                                            <p class="help-block"></p>
+                                        </div>
+                                    </div>
                                     <button type="submit" class="btn btn-primary" id="btnadd"
-                                            name="method" value="getLocalizacoes">Obter MAPA
+                                            name="method" value="setPercurso">Atribuir Percurso
                                     </button>
                                 </form>
-                                <div class="well">
-                                    <?php
-
-                                    if (isset($response)) {
-                                        $tmp = json_decode($response);
-
-                                        if (isset($tmp->response)) {
-                                            foreach ($tmp->response->locations as $location)
-
-                                                echo '<div>' . $location->coordenadas . '<br/>';
-
-                                        }
-                                    }
-                                    ?>
-                                </div>
-
                             </ul>
                         </li>
                         <li class="sidebar-search ">
@@ -316,7 +487,7 @@ if (isset($_POST['method'])) {
     <footer>
         <div class="row">
             <div class="col-lg-12">
-                <p>Copyright &copy; Your Website 2014</p>
+                <p>Copyright &copy; Filipe Vinha e JOrge Rocha</p>
             </div>
         </div>
     </footer>
