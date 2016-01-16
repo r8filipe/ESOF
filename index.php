@@ -461,23 +461,25 @@ if (isset($_POST['method'])) {
                                 </form>
                             </ul>
                         </li>
-                        <li class="sidebar-search ">
-                            <a href="#" style="font-size:1.2em"><i class="fa fa-money"></i></i>
-                                JSON RESPONSE<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <?php
-                                    if (isset($response)) {
-                                        echo $response;
-                                    }
-                                    ?>
-                                </li>
-                            </ul>
-                        </li>
+
                     </ul>
                 </div>
 
             </div>
+            <hr>
+            <li class="sidebar-search ">
+                <a href="#" style="font-size:1.2em"><i class="fa fa-money"></i></i>
+                    JSON RESPONSE<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <?php
+                        if (isset($response)) {
+                            echo $response;
+                        }
+                        ?>
+                    </li>
+                </ul>
+            </li>
 
         </div>
     </div>
@@ -487,7 +489,7 @@ if (isset($_POST['method'])) {
     <footer>
         <div class="row">
             <div class="col-lg-12">
-                <p>Copyright &copy; Filipe Vinha e JOrge Rocha</p>
+                <p>Copyright &copy; Filipe Vinha e Jorge Rocha</p>
             </div>
         </div>
     </footer>
