@@ -78,7 +78,7 @@ class ws2
             $method = $this->param['method'];
             switch ($method) {
                 case 'searchTo';
-                    $response = searchTo();
+                    $response = $this->searchTo();
                     break;
             }
 
